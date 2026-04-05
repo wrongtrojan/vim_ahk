@@ -1,0 +1,22 @@
+{
+  "Apps": [
+    { "Key": "!t", "ID": "ahk_class CASCADIA_HOSTING_WINDOW_CLASS", "Path": "wt.exe" },
+    { "Key": "!v", "ID": "ahk_exe Code.exe", "Path": "C:\\Users\\24051\\Desktop\\Code\\Code.lnk" },
+    { "Key": "!s", "ID": "ahk_exe Everything.exe", "Path": "C:\\Users\\24051\\Desktop\\Tool\\Everything.lnk" },
+    { "Key": "!g", "ID": "ahk_exe chrome.exe", "Path": "C:\\Users\\24051\\Desktop\\Search\\Chrome.lnk" },
+    { "Key": "!q", "ID": "ahk_exe QQ.exe", "Path": "C:\\Users\\24051\\Desktop\\Social\\QQ.lnk" },
+    { "Key": "!w", "ID": "ahk_exe WeChat.exe", "Path": "C:\\Users\\24051\\Desktop\\Social\\Weixin.lnk" }
+  ],
+  "Templates": [
+    { "Key": "^!m", "Ext": ".md", "Tpl": "# {{Name}}\n\nCreated: {{Time}}\n\n" },
+    { "Key": "^!c", "Ext": ".cpp", "Tpl": "#include <iostream>\n\nint main() {\n    std::cout << \"Hello World\" << std::endl;\n    return 0;\n}" },
+    { "Key": "^!p", "Ext": ".py", "Tpl": "import os\n\ndef main():\n    print(\"Hello World\")\n\nif __name__ == '__main__':\n    main()" },
+    { "Key": "^!h", "Ext": ".h", "Tpl": "#ifndef HEADER_H\n#define HEADER_H\n\n#endif" },
+    { "Key": "^!k", "Ext": ".ahk", "Tpl": "; AutoHotkey v2 Script\n\n!j::MsgBox(\"Hello\")" }
+  ],
+  "Settings": {
+    "SwitchThreshold": 800,
+    "SnapRatios": [0.618, 0.5, 0.382],
+    "CenterRatio": 0.7
+  }
+}
